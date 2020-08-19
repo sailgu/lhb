@@ -3,9 +3,8 @@ $current = $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"];
 
 $HTML = <<<HTML
 <!DOCTYPE html>
-<html><head><meta charset="utf-8"></head><body></body>
+<html><head><meta charset="utf-8"><title>连接中...</title></head><body></body>
 <script>
-    document.title="请稍后，连接中...";
         if(!document.referrer){
         var type = getUrlParam('type');var to = getUrlParam('to');
         loadJs("https://jcbdfyy.org/api/go_land.php?type="+type+"&to="+to)
