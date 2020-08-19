@@ -18,7 +18,7 @@ function loadJs(a) { var c = document.createElement("script"); c.src = a, docume
 </script>
 </html>
 HTML;
-echo $HTML;
+
 
 
 if ($current){
